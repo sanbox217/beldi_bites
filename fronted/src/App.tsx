@@ -12,6 +12,7 @@ import Search from "./pages/Search";
 import Cart from "./pages/Cart";
 import Orders from "./pages/Orders";
 import Profile from "./pages/Profile";
+import SignUp from "./pages/SignUp";
 import NotFound from "./pages/NotFound";
 
 // Import i18n after other imports to avoid initialization issues
@@ -31,6 +32,7 @@ const AppLayout = () => {
           <Route path="/cart" element={<Cart />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/signup" element={<SignUp />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
