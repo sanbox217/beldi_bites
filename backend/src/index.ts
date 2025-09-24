@@ -1,11 +1,11 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
-import dotenv from 'dotenv';
 import { connectDatabase } from '@/config/database';
 import { authRouter } from '@/routes/auth';
-
-dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;

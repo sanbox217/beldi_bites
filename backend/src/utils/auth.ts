@@ -22,7 +22,7 @@ export const generateToken = (user: Omit<IUser, 'password'>): string => {
       role: user.role
     },
     JWT_SECRET,
-    { expiresIn: JWT_EXPIRES_IN }
+    { expiresIn: JWT_EXPIRES_IN } as jwt.SignOptions
   );
 };
 

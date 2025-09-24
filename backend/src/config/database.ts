@@ -4,10 +4,14 @@ const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/beldi_
 
 export const connectDatabase = async (): Promise<void> => {
   try {
-    const conn = await mongoose.connect(MONGODB_URI);
+    console.log(`Attempting to connect to MongoDB: ${MONGODB_URI}`);
+    const conn = await mongoose.connect(MONGODB_URI, {
+      serverSelectionTimeoutMS: 5000, // Timeout after 5s instead of 30s
+    });
     console.log(`MongoDB Connected: ${conn.connection.host}`);
   } catch (error) {
     console.error('Database connection error:', error);
+    console.log('Note: Make sure MongoDB is running locally or check your connection string');
     process.exit(1);
   }
 };

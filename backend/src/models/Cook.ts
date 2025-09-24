@@ -2,7 +2,7 @@ import mongoose, { Schema, Document } from 'mongoose';
 import { Cook as ICook } from '@/types';
 
 const CookSchema = new Schema<ICook & Document>({
-  userId: { type: Schema.Types.ObjectId, ref: 'User', required: true, unique: true },
+  userId: { type: String, ref: 'User', required: true, unique: true },
   displayName: { type: String, required: true, trim: true },
   bio: { type: String, trim: true },
   neighborhood: { type: String, required: true },
@@ -14,7 +14,7 @@ const CookSchema = new Schema<ICook & Document>({
 }, {
   timestamps: true,
   toJSON: {
-    transform: function(doc, ret) {
+    transform: function(doc: any, ret: any) {
       ret.id = ret._id;
       delete ret._id;
       delete ret.__v;
