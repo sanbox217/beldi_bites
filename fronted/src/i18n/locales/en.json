@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "home": "Home",
+    "search": "Search",
+    "cart": "Cart",
+    "orders": "Orders",
+    "profile": "Profile"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "price": "Price",
+    "quantity": "Quantity",
+    "total": "Total"
+  },
+  "home": {
+    "title": "Mamanat - Authentic Moroccan Home Cooking",
+    "subtitle": "Discover the finest Moroccan homemade dishes from talented local cooks",
+    "searchPlaceholder": "Search for dishes or cooks...",
+    "featuredCooks": "Featured Cooks",
+    "categories": {
+      "bread": "Bread",
+      "msemen": "Msemen",
+      "harsha": "Harsha", 
+      "beghrir": "Beghrir",
+      "sweets": "Sweets",
+      "savory": "Savory",
+      "glutenFree": "Gluten-free",
+      "halal": "Halal"
+    },
+    "location": "Location",
+    "delivery": "Delivery",
+    "pickup": "Pickup"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "ingredients": "Ingredients",
+    "allergens": "Allergens",
+    "leadTime": "Preparation Time",
+    "hours": "hours",
+    "pieces": "pieces",
+    "servings": "servings",
+    "reviews": "Reviews",
+    "rating": "Rating"
+  },
+  "cook": {
+    "menu": "Menu",
+    "about": "About",
+    "reviews": "Reviews",
+    "rating": "Rating",
+    "verified": "Verified Kitchen",
+    "onTime": "On-time Delivery",
+    "neighborhood": "Neighborhood"
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Cart is empty",
+    "subtotal": "Subtotal",
+    "deliveryFee": "Delivery Fee",
+    "total": "Total",
+    "checkout": "Checkout",
+    "notes": "Notes for cook"
+  },
+  "favorites": {
+    "added": "Added to favorites",
+    "removed": "Removed from favorites",
+    "product": "product", 
+    "cook": "cook"
+  },
+}

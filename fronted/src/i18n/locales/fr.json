@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "search": "Recherche",
+    "cart": "Panier",
+    "orders": "Commandes",
+    "profile": "Profil"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "save": "Enregistrer",
+    "add": "Ajouter",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "close": "Fermer",
+    "price": "Prix",
+    "quantity": "Quantité",
+    "total": "Total"
+  },
+  "home": {
+    "title": "Mamanat - Cuisine Marocaine Authentique",
+    "subtitle": "Découvrez les meilleurs plats marocains faits maison par des cuisinières talentueuses",
+    "searchPlaceholder": "Rechercher plats ou cuisinières...",
+    "featuredCooks": "Cuisinières en vedette",
+    "categories": {
+      "bread": "Pain",
+      "msemen": "Msemen",
+      "harsha": "Harsha",
+      "beghrir": "Beghrir",
+      "sweets": "Pâtisseries",
+      "savory": "Salé",
+      "glutenFree": "Sans gluten",
+      "halal": "Halal"
+    },
+    "location": "Localisation",
+    "delivery": "Livraison",
+    "pickup": "À emporter"
+  },
+  "product": {
+    "addToCart": "Ajouter au panier",
+    "ingredients": "Ingrédients",
+    "allergens": "Allergènes",
+    "leadTime": "Temps de préparation",
+    "hours": "heures",
+    "pieces": "pièces",
+    "servings": "portions",
+    "reviews": "Avis",
+    "rating": "Note"
+  },
+  "cook": {
+    "menu": "Menu",
+    "about": "À propos",
+    "reviews": "Avis",
+    "rating": "Note",
+    "verified": "Cuisine vérifiée",
+    "onTime": "Livraison ponctuelle",
+    "neighborhood": "Quartier"
+  },
+  "cart": {
+    "title": "Panier",
+    "empty": "Le panier est vide",
+    "subtotal": "Sous-total",
+    "deliveryFee": "Frais de livraison",
+    "total": "Total",
+    "checkout": "Commander",
+    "notes": "Notes pour la cuisinière"
+  },
+  "favorites": {
+    "added": "Ajouté aux favoris",
+    "removed": "Retiré des favoris", 
+    "product": "produit",
+    "cook": "cuisinière"
+  },
+}
